@@ -1,6 +1,6 @@
 # Autogit commit script and example in R markdown
 
-## This is just a quick little script you can add to your R markdown file and run at the end. 
+## This is just a quick little script you can add to your R markdown file and run at your convenience. 
 
 ### All your working files should be saved, and your git repo should already be set up with the files you wish to be tracked.
 
