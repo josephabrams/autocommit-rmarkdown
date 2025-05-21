@@ -1,0 +1,21 @@
+---
+title: "test_script_in_markdown"
+author: "joseph abrams"
+date: "2025-05-21"
+output: html_document
+---
+Lets test some changes:
+
+How about this?
+
+Lets try making some more changes and see if this works?
+
+Put this at the end of your code and run it to automatically commit, remember to still push for saving to github, this only does local saves.
+```{r}
+knitr::opts_chunk$set(echo = TRUE)
+#code will show error if files are not saved!
+
+python_script_path <- "/home/joseph/.r/git_commit_script.py" # Replace with the actual path
+system(paste("python", python_script_path), intern = TRUE)
+
+```
